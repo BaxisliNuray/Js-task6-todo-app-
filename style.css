@@ -1,0 +1,75 @@
+body {
+    background: rgb(79, 141, 228);
+    background: linear-gradient(100deg, rgba(79, 141, 228, 1) 36%, rgba(88, 175, 218, 1) 69%, rgba(100, 222, 207, 0.8323704481792717) 100%);
+}
+
+.to-do-box {
+    background-color: white;
+    border-radius: 7px;
+
+    
+    margin-top: 20%;
+    padding: 25px 27px;
+    
+}
+
+.to-do-box>h2 {
+    font-weight: 700;
+    font-family: monospace;
+}
+
+form {
+    font-size: 25px;
+}
+
+form input {
+    margin-right: 5%;
+}
+
+form button {
+    padding: 0 9px;
+    border-radius: 4px;
+    color: white;
+    background-color: #8b4bea;
+    border:1px solid #8b4bea;
+}
+
+ul li{
+    position: relative;
+    margin: 3px 0;
+    border-radius:4px ;
+   
+    
+}
+
+ul li button{
+    position: absolute;
+    right: 0%;
+    border: 1px solid #d25342;
+    border-radius: 4px;
+    padding:  8px 14px;
+    color: white;
+    background-color: #d25342;
+    display: none;
+    transition: 8s;
+   
+    
+}
+
+ul li:hover button{
+display: block;
+}
+
+.clear-form{
+    margin-top: 20px;
+}
+.clear-form button{
+    padding: 0 9px;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: 15px;
+    
+    color: white;
+    background-color: #8b4bea;
+    border:1px solid #8b4bea;
+}
